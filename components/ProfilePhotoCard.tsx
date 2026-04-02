@@ -6,7 +6,7 @@ export function ProfilePhotoCard() {
       <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
         <Image
           src="/profile.png"
-          alt="Professional portrait of Celmar Galindez"
+          alt="Profile photo of Celmar Galindez"
           fill
           priority
           className="object-cover object-center"
