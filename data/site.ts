@@ -3,7 +3,7 @@ export const siteData = {
   title: "Developer | Executive Assistant | Project Manager",
   email: "celmargalindez@gmail.com",
   linkedin: "https://linkedin.com/in/celmar-galindez",
-  phone: "09171832785",
+  phone: "09619387093",
   location: "Philippines",
   summary:
     "Developer, executive assistant, and project manager with experience spanning public sector systems, mobile and web development, Agile delivery, and project coordination.",
@@ -18,22 +18,22 @@ export const stats = [
 ];
 
 export const skills = [
-  "Android",
-  "iOS",
-  "Unity 3D",
-  "Java",
-  "C#",
-  "Kotlin",
-  "Android Studio",
-  "Adobe Photoshop",
-  "React Native",
-  "AR / VR",
-  "Version Control",
-  "JIRA Software",
-  "Salesforce",
-  "RESTful API",
-  "WordPress",
-  "Agile Methodology",
+  { name: "Android", icon: "smartphone" },
+  { name: "iOS", icon: "apple" },
+  { name: "Unity 3D", icon: "box" },
+  { name: "Java", icon: "braces" },
+  { name: "C#", icon: "code" },
+  { name: "Kotlin", icon: "file-code" },
+  { name: "Android Studio", icon: "monitor-smartphone" },
+  { name: "Adobe Photoshop", icon: "palette" },
+  { name: "React Native", icon: "atom" },
+  { name: "AR / VR", icon: "sparkles" },
+  { name: "Version Control", icon: "git-branch" },
+  { name: "JIRA Software", icon: "kanban-square" },
+  { name: "Salesforce", icon: "cloud" },
+  { name: "RESTful API", icon: "network" },
+  { name: "WordPress", icon: "globe" },
+  { name: "Agile Methodology", icon: "workflow" },
 ];
 
 export const experience = [
@@ -44,8 +44,8 @@ export const experience = [
     bullets: [
       "Developed web application for project monitoring.",
       "Integrated mobile app in project monitoring.",
-      "Organized team meetings and project coordination.",
-    ],
+      "Organized team meetings and project coordination."
+    ]
   },
   {
     role: "Project Manager | IT Sales Team",
@@ -53,8 +53,8 @@ export const experience = [
     period: "Since 2019",
     bullets: [
       "Utilized JIRA in project monitoring, task allocation, and resource management.",
-      "Integrated Salesforce as SaaS CRM.",
-    ],
+      "Integrated Salesforce as SaaS CRM."
+    ]
   },
   {
     role: "Mobile and Web Developer",
@@ -64,8 +64,8 @@ export const experience = [
       "Developed games and deployed to Google Play.",
       "Designed mobile mockups.",
       "Integrated augmented reality into games.",
-      "Designed websites using WordPress.",
-    ],
+      "Designed websites using WordPress."
+    ]
   },
   {
     role: "Mobile and Web Developer",
@@ -75,43 +75,43 @@ export const experience = [
       "Created RESTful APIs.",
       "Developed AR apps.",
       "Worked within Agile methodology.",
-      "Enhanced client communication handling.",
-    ],
+      "Enhanced client communication handling."
+    ]
   },
   {
     role: "Junior Developer",
     company: "Ripeconcepts, Inc.",
     period: "January 2016 - May 2017",
     bullets: [
-      "Developed knowledge in deploying apps in App Store and Google Play.",
-    ],
+      "Developed knowledge in deploying apps in App Store and Google Play."
+    ]
   },
   {
     role: "Junior Web Developer",
     company: "PODD",
     period: "November 2014 - May 2015",
     bullets: [
-      "Developed website and web app.",
-    ],
-  },
+      "Developed website and web app."
+    ]
+  }
 ];
 
 export const awards = [
   {
     title: "PARANGAL 2022",
     org: "Office of the President of the Philippines",
-    date: "June 2022",
+    date: "June 2022"
   },
   {
     title: "Best Employee of the Month",
     org: "Ripeconcepts, Inc.",
-    date: "September 2016",
+    date: "September 2016"
   },
   {
     title: "Most Outstanding Teacher",
     org: "Claver NHS",
-    date: "December 2015",
-  },
+    date: "December 2015"
+  }
 ];
 
 export const education = [
@@ -119,7 +119,7 @@ export const education = [
   "Juris Doctor, University of Cebu (August 2019 - 2020, 24 units)",
   "MS Industrial Technology, Cebu Technological University (June 2016 - 2018, 30 units)",
   "MS Information Technology, Surigao State College of Technology (March 2016, 9 units)",
-  "BS Information Technology, STI College Surigao, Cum Laude (March 2014)",
+  "BS Information Technology, STI College Surigao, Cum Laude (March 2014)"
 ];
 
 export const apps = [
@@ -129,12 +129,12 @@ export const apps = [
   "Stik’em",
   "Stikbot Studio",
   "WetHead",
-  "Thumbchucks",
+  "Thumbchucks"
 ];
 
 export const affiliations = [
   "President and Founder, Sapa Elementary School Alumni Association",
   "Member, Cebu Google Developer’s Group",
   "Member, STI Surigao Alumni Association",
-  "Pioneer Member, POINTY, Inc. Surigao del Norte",
+  "Pioneer Member, POINTY, Inc. Surigao del Norte"
 ];

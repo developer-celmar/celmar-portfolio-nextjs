@@ -6,12 +6,12 @@ const links = [
   { href: "/about", label: "About" },
   { href: "/experience", label: "Experience" },
   { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
+  { href: "/contact", label: "Contact" }
 ];
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/75 backdrop-blur-xl">
       <div className="container-shell flex items-center justify-between py-4">
         <div>
           <Link href="/" className="text-lg font-bold tracking-tight text-slate-950">

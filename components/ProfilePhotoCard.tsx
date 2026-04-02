@@ -1,17 +1,18 @@
-import { Camera } from "lucide-react";
+import Image from "next/image";
 
 export function ProfilePhotoCard() {
   return (
-    <div className="card p-6">
-      <div className="flex aspect-[4/5] items-center justify-center rounded-[2rem] border border-dashed border-slate-300 bg-slate-50">
-        <div className="text-center text-slate-500">
-          <Camera className="mx-auto h-10 w-10" />
-          <p className="mt-4 text-sm font-medium">Professional photo placeholder</p>
-          <p className="mt-2 max-w-xs text-sm">
-            Replace this with an optimized headshot in <code>/public/profile.jpg</code> and switch
-            the component to a real image.
-          </p>
-        </div>
+    <div className="card overflow-hidden p-3">
+      <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
+        <Image
+          src="/profile.png"
+          alt="Professional portrait of Celmar Galindez"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="(max-width: 1024px) 100vw, 420px"
+        />
+        <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-slate-950/10 to-transparent" />
       </div>
     </div>
   );

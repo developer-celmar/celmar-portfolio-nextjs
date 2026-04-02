@@ -1,46 +1,17 @@
 # Celmar Galindez Portfolio
 
-A Vercel-ready Next.js portfolio project built with the App Router, TypeScript, and Tailwind CSS.
+A Vercel-ready Next.js portfolio project built with the App Router, TypeScript, Tailwind CSS, and subtle Framer Motion animations.
 
-## Included executive-level sections
+## Updated executive-level sections
 
 - Resume download button
-- Skills / Tech stack
+- Skills / Tech stack with icons
 - Awards & recognitions
 - Published apps showcase
-- Professional photo placeholder
+- Studio-style professional portrait
 - Contact form
 - Vercel-ready Next.js deployment structure
-
-## Project structure
-
-```text
-celmar-portfolio-nextjs/
-├── app/
-│   ├── about/page.tsx
-│   ├── contact/page.tsx
-│   ├── experience/page.tsx
-│   ├── projects/page.tsx
-│   ├── api/contact/route.ts
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── AppsShowcase.tsx
-│   ├── AwardsGrid.tsx
-│   ├── ContactForm.tsx
-│   ├── Footer.tsx
-│   ├── Header.tsx
-│   ├── ProfilePhotoCard.tsx
-│   ├── ResumeButtons.tsx
-│   ├── SectionHeading.tsx
-│   └── SkillsGrid.tsx
-├── data/site.ts
-├── public/CELMAR_GALINDEZ_CV.pdf
-├── package.json
-├── tailwind.config.ts
-└── README.md
-```
+- Professional motion and hover interactions
 
 ## Local development
 
@@ -58,5 +29,6 @@ npm run dev
 
 ## Notes
 
-- The professional photo is currently a placeholder. Replace it with a real image in `/public/profile.jpg`.
-- The contact form endpoint is a scaffold and should be connected to a production mail provider.
+- The profile image is stored at `/public/profile.png`.
+- The résumé PDF is stored at `/public/CELMAR_GALINDEZ_CV.pdf`.
+- The contact form endpoint is a scaffold and should be connected to a production mail provider for live email delivery.

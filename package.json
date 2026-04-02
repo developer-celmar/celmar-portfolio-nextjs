@@ -1,5 +1,5 @@
 {
-  "name": "celmar-portfolio-nextjs",
+  "name": "celmar-portfolio-nextjs-executive",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
     "next": "14.2.15",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "lucide-react": "^0.468.0"
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
